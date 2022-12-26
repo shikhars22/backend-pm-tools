@@ -1,6 +1,7 @@
 # backend-pm-tools
 
 Run these below to start your django server
+
           cd backend/
           python3 -m venv .venv
           source .venv/bin/activate
