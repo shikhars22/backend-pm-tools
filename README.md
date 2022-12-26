@@ -1,4 +1,9 @@
 # backend-pm-tools
-follow this readme
 
-https://github.com/shikhars22/djangoReactStack/blob/master/README.md
+Run these below to start your django server
+     cd backend/
+     python3 -m venv .venv
+     source .venv/bin/activate
+     pip install -r requirements.txt
+     python manage.py migrate
+     python manage.py runserver
