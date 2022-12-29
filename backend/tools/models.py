@@ -6,3 +6,6 @@ class Tool(models.Model):
     longDesc = models.CharField(max_length=2300, default='')
     img = models.CharField(max_length=1300)
     isActive = models.BooleanField(default=True)
+
+    def __str__(self):
+        return self.description
